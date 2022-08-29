@@ -1,10 +1,10 @@
-import './App.css';
+import { Landing, Error, Register, Dashboard } from "./pages";
 
 function App() {
   return (
-    <div className="App">
- hi
-    </div>
+    <>
+      <Landing />;
+    </>
   );
 }
 
