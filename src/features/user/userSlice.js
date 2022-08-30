@@ -12,6 +12,8 @@ const initialState = {
   user: getUserFromLocalStorage(),
 };
 
+
+
 export const registerUser = createAsyncThunk(
   "user/registerUser",
   async (user, thunkAPI) => {
